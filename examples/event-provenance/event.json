@@ -1,0 +1,19 @@
+{
+  "context": {
+    "specversion": "0.5.1",
+    "id": "271069a8-fc18-44f1-b38f-9d70a1695819",
+    "source": "/pipelines/release/build-and-publish",
+    "type": "dev.cdevents.artifact.published.0.3.0",
+    "timestamp": "2026-07-03T14:27:05.315384Z"
+  },
+  "subject": {
+    "id": "pkg:oci/myapp@sha256:0f7e1b2c3d4a5b6c7d8e9f00112233445566778899aabbccddeeff0011223344",
+    "source": "/pipelines/release/build-and-publish",
+    "content": {
+      "sbom": {
+        "uri": "https://sbom.example.com/myorg/myapp/0f7e1b2c.spdx.json"
+      },
+      "user": "release-bot"
+    }
+  }
+}

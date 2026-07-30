@@ -169,9 +169,8 @@ audit trails or long-lived provenance.
 
 ## Worked example
 
-A runnable end-to-end example accompanies this guide at
-[MarkovianProtocol/cdevents-provenance](https://github.com/MarkovianProtocol/cdevents-provenance).
-It is kept outside this repository so that CDEvents takes no dependency on it.
+A runnable end-to-end example accompanies this guide in
+[`examples/event-provenance/`](./examples/event-provenance/).
 
 The example uses real libraries rather than stubs: `rfc8785` for JCS canonicalization,
 `cryptography` for Ed25519, and `jsonschema` to validate the sample event against the

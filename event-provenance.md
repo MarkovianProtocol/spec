@@ -98,12 +98,13 @@ Does not prove:
 - That the event was not reissued. A party holding the signing key can produce a fresh,
   validly-signed event with different content at any later time.
 
-Note on CloudEvents: a message-level signature profile for CloudEvents itself is an open
-discussion in the CloudEvents project
-([cloudevents/spec#565](https://github.com/cloudevents/spec/issues/565)) rather than a
-finished standard. Applying DSSE to the CDEvent document, as described here, does not
-depend on that work and is compatible with signing at either the CDEvent or the
-CloudEvents layer.
+Note on CloudEvents: CloudEvents has merged a DSSE-based verifiability extension
+([cloudevents/extensions/verifiability.md](https://github.com/cloudevents/spec/blob/main/cloudevents/extensions/verifiability.md),
+merged June 2026), covering authenticity and integrity of individual events. When a
+CDEvent travels as a CloudEvent, that extension is the recommended way to sign it — it
+is DSSE in both cases, so Part 1 of this guidance and the extension align rather than
+compete. The extension's stated non-goals (stream completeness, ordering, existence
+over time) are what the Part 2 commitment adds; the two compose.
 
 ## Part 2: existence over time with an optional hash commitment
 

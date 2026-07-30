@@ -64,6 +64,7 @@ pipelinerun
 png
 pre
 rolledback
+runnable
 runtime
 sbom
 schemaUri

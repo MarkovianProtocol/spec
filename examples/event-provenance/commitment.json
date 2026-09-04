@@ -1,5 +1,0 @@
-{
-  "alg": "RFC8785-JCS+SHA-256",
-  "hash": "sha256:2654df9ccd165ead6390d70ca533976aff38da017b53e83439407993c4d6c9ed",
-  "note": "SHA-256 over the RFC 8785 (JCS) canonical serialization of the CDEvent. This is the value an emitter would commit to an external timeline. The anchor (transparency log, RFC 3161 TSA, blockchain, ...) is out of scope."
-}

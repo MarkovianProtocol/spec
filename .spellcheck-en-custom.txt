@@ -1,7 +1,6 @@
 CDF
 CVE
 DSSE
-Ed
 Gerrit
 Github
 Gitlab
@@ -10,7 +9,6 @@ JSON
 Merkle
 NIST
 Notational
-PAE
 README
 RFC
 SBOM
@@ -20,7 +18,6 @@ SDLC
 SDK
 SHA
 SIG
-SLSA
 SRE
 Tekton
 URI
@@ -52,7 +49,6 @@ img
 interoperable
 json
 jsonschema
-keypair
 lifecycle
 markdownlint
 md
@@ -64,7 +60,6 @@ pipelinerun
 png
 pre
 rolledback
-runnable
 runtime
 sbom
 schemaUri
@@ -81,7 +76,6 @@ testsuite
 testsuiterun
 ticketURI
 toc
-toto
 typesystem
 unparsed
 uri
